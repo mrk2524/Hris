@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
     public WebDriver driver = null;
 	public WebDriver getdriver()
 	{
-	   System.setProperty("webdriver.chrome.driver","C:C:\\java programs\\chromedriver_win32\\chromedriver.exe");
+	   System.setProperty("webdriver.chrome.driver","C:\\java programs\\chromedriver_win32\\chromedriver.exe");
 	   driver = new ChromeDriver();
 	   return driver;
 	}
